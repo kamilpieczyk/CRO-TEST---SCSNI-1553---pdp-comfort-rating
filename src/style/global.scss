@@ -1,0 +1,26 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+#dy-pdp-comfort-rating, #dy-pdp-comfort-rating-mobile {
+
+
+.hide-mobile {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.hide-desktop {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+}
+
+#pdpDimensions {
+  @media (max-width: 768px) {
+    border-top: 1px solid #d1d1d1;
+  }
+}

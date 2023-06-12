@@ -1,0 +1,21 @@
+#dy-pdp-comfort-rating, #dy-pdp-comfort-rating-mobile {
+
+  .dy-pdp-comfort-rating-container {
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    padding: 14px 64px;
+    border: 1px solid #D1D1D1;
+    border-radius: 3px;
+    width: max-content;
+    margin-top: 17px;
+
+    @media (max-width: 768px) {
+      border: none;
+      padding: 1px 0px;
+      margin-bottom: 7px;
+      margin-top: 0px;
+    }
+  }
+
+
+}

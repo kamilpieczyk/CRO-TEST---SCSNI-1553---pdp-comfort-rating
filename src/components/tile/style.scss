@@ -1,0 +1,47 @@
+@use '../../style/colors.scss' as color;
+@use '../../style/font.scss' as font;
+
+#dy-pdp-comfort-rating, #dy-pdp-comfort-rating-mobile {
+
+
+  .dy-pdp-comfort-rating-tile {
+    display: grid;
+    grid-template-columns: 50px 2fr;
+    gap: 10px;
+    padding-right: 5px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 100%;
+      place-items: center;
+      gap: 8px;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .dy-pdp-comfort-rating-tile---text-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h4, p {
+        font-size: 14px;
+        font-weight: 100;
+        margin: 0;
+        line-height: 16px;
+
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+      }
+
+      h4 {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+
+}
