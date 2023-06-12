@@ -32,8 +32,8 @@ const config = {
       banner: `
         Author: Kamil Pieczyk | for Sherwen Studios - www.sherwen.com
         email: kamil@sherwen.com
-        Title: ScS CRO Test - SCSNI-1525: checkout-finance-options
-        git repository: https://github.com/kamilpieczyk/SCSNI-1525---checkout-finance-options
+        Title: CRO-TEST---SCSNI-1553---pdp-comfort-rating
+        git repository: https://github.com/kamilpieczyk/CRO-TEST---SCSNI-1553---pdp-comfort-rating
       `
     })
   ],
